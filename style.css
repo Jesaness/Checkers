@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: #ff9999;
+}
+
+
+#board{
+    width: 450px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    margin-left: -225px;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 255);
+    border: 5px solid black;
+    float: left;
+    margin: 3px; /*comment*/
+}
+
+.piece{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.white{
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
+
+.king{
+    color: red;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+}
